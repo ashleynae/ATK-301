@@ -1,0 +1,26 @@
+/*This is assignment 3 stylesheet*/
+
+h2{
+  color: white;
+  background-color: red;
+}
+
+#bluebackground {
+  background-color: blue;
+}
+
+.yellowbackground{
+  background-color: yellow; 
+}
+
+a:link {
+ color: #FF0000;
+}
+
+a:visited {
+ color: #00FF00;
+}
+
+a:hover {
+ color: #f5f242;
+}
