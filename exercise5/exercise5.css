@@ -1,0 +1,44 @@
+h1 {
+  color: white;
+}
+
+h2 {
+  color: blue;
+}
+
+.specialp {
+ color: #ff0000;
+}
+.brilliant{
+  color: red;
+}
+.spanstyle{
+  color: red;
+}
+.daughter {
+  color: purple
+}
+.doctorp {
+  color: yellow
+}
+#divexample{
+  background-color: #42ddf5
+}
+#bluebackground {
+  background-color: blue;
+}
+#yellowbackground{
+  background-color: yellow;
+}
+#greenbackground{
+  background-color: green;
+}
+a:link {
+ color: #289e3d;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #FF0000;
+ text-decoration: underline;
+}
