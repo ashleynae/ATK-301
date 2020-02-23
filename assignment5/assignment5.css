@@ -1,0 +1,42 @@
+body{
+  background-image: url(Lakeith.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 30px;
+}
+
+.fontcombined {
+font: bold 20px Impact, sans-serif;
+padding: 40px;
+}
+
+.fonttogether {
+  font: bold 80px Impact, sans-serif;
+  padding: 20px;
+}
+
+a:hover {
+ color: red;
+ text-decoration: underline;
+}
+
+a:link {
+ color: magenta;
+ text-decoration: none;
+}
+
+h1{
+  color: magenta;
+}
+
+.spanstyle {
+  color: red;
+}
+
+.pink {
+  color: magenta;
+}
+
+.purple {
+  color: #8a0cc9;
+}
