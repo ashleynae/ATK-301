@@ -1,0 +1,55 @@
+body{
+  background-color: #ffd633;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.fontcombined {
+font: bold 20px Impact, sans-serif;
+padding: 20px
+}
+
+.fonttogether {
+  font: bold 80px Impact, sans-serif;
+  padding: 20px
+}
+
+.bordertop {
+  border-top: 2px solid #9933ff;
+  width: 60%
+}
+
+.borderbottom {
+  border-bottom: 2px solid #9933ff;
+  width: 60%
+}
+
+.imgbox {
+  padding: 10px;
+}
+
+a:hover {
+ color: red;
+ text-decoration: underline;
+}
+
+a:link {
+ color: magenta;
+ text-decoration: none;
+}
+
+h1{
+  color: magenta;
+}
+
+.spanstyle {
+  color: red;
+}
+
+.pink {
+  color: magenta;
+}
+
+.purple {
+  color: #8a0cc9;
+}
