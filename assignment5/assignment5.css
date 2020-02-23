@@ -1,17 +1,20 @@
 body{
   background-color: #ffd633;
+  background-image: url(Lakeith.jpg);
   background-repeat: no-repeat;
   background-position: top left;
+  padding: 20px;
+  width: 80%
 }
 
 .fontcombined {
 font: bold 20px Impact, sans-serif;
-padding: 20px
+padding: 20px;
 }
 
 .fonttogether {
   font: bold 80px Impact, sans-serif;
-  padding: 20px
+  padding: 20px;
 }
 
 .bordertop {
@@ -52,4 +55,23 @@ h1{
 
 .purple {
   color: #8a0cc9;
+}
+
+.ptfont {
+  font-size: 50px;
+  color: #8a0cc9;
+}
+.textjustify {
+  text-align: justify;
+}
+
+nav {
+  padding: 50px;
+  margin: 10px;
+}
+
+
+header {
+  padding: 50px;
+  margin: 50px;
 }
