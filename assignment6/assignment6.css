@@ -19,6 +19,7 @@ body{
   font-weight: bold;
   font: Georgia;
   text-align: justify;
+  padding-right: 10px;
 }
 
 .textcenter {
@@ -30,7 +31,6 @@ body{
   padding: 10px;
   border: 3px solid black;
   margin: 10px;
-  width: 30%
 }
 
 html {
@@ -42,11 +42,14 @@ background-color: black;
 border: 10px solid black;
 color:#ffffff;
 padding: 5px;
-margin-top: 0px;
+margin: 10px;
 }
 
 h2 {
   border-bottom: 4px solid black;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 10px;
 }
 
 .mainp a {
@@ -99,4 +102,5 @@ footer {
   font-style: italic;
   color: #ffffff;
   grid-column: span 12;
+  font-size: 20px;
 }
