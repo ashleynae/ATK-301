@@ -1,0 +1,68 @@
+body {
+  background-image: url(ice5.jpeg);
+  background-repeat: repeat;
+}
+
+
+
+#wrapper {
+  width: 960px;
+  border: 2px solid black;
+  grid-template-columns: repeat(12 1fr);
+  background-color: white;
+}
+
+header {
+  grid-column: span 12;
+}
+
+main {
+  grid-column: span 9;
+  font-family: Georgia sans-serif;
+}
+
+.imagefloat {
+  float: right;
+  margin-left: 20px;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  border: 1px solid #000000;
+  padding: 0px;
+  margin: 10px;
+  width: 150px;
+}
+
+nav li a {
+  color: #ffffff;
+  display: block;
+  padding: 10px;
+  background-color: #cc0000;
+  text-decoration: none;
+  border: 1px solid black;
+
+}
+
+nav li a:hover {
+  background-color: #660000;
+}
+
+h1 {
+background-color: black;
+border: 10px solid black;
+color:#ffffff;
+padding: 5px;
+margin: 1px;
+}
+
+h2{
+  border-bottom: 3px solid black;
+  width: 70%;
+}
