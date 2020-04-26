@@ -1,0 +1,93 @@
+body {
+  background-color: #999999;
+  font-family: Georgia, serif;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+  background-color: #EF3DE8;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-left: 24px;
+  margin-bottom: 24px;
+}
+
+  nav ul {
+  list-style: none;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr); /* a grid of four columns for the four nav li's */
+  grid-column-gap: 24px;
+  text-align: center;
+}
+
+
+nav li{
+margin-bottom: 24px;
+display: inline-block;
+}
+
+
+nav li a {
+  display: block;
+  background-color: #4CE7ED;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 24px;
+}
+
+
+
+
+#mainimg {
+  grid-column: span 8;
+}
+
+
+nav {
+  grid-column: span 12;
+}
+
+main {
+  grid-column: span 12;
+}
+
+section {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+
+section h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+  margin-bottom: 0px;
+  color: #EF3DE8;
+}
+
+footer {
+  grid-column: span 12;
+  background-color: #EF3DE8;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  padding: 24px;
+}
